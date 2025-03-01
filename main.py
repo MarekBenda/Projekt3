@@ -216,7 +216,7 @@ def write_to_csv(csv_file: str, all_district_data: List[Dict[str, str]], ordered
             for entry in all_district_data:
                 row = {col: entry.get(col, "0") for col in csv_columns}
                 writer.writerow(row)
-        print(f"CSV file '{csv_file}' has been successfully created with UTF-8 encoding.")
+        print(f"CSV soubor '{csv_file}' byl úspěšně vytvořen s UTF-8 zakódováním.")
     except Exception as e:
         print(f"Chyba při zápisu do CSV souboru: {str(e)}")
         sys.exit(1)
