@@ -33,7 +33,7 @@ pip install requests beautifulsoup4
 
 ## Usage
 Run the script from the command line with two arguments:
-* Input: Either a URL to a specific election results page or the name of a district (e.g., "Praha").
+* Input: Either a URL to a specific district (like Praha-východ after you click on the "X" for "Výběr obce") election results page or the name of a district (e.g., "Praha").
 * Output: The name of the CSV file to save the results (must end with .csv).
 
 Syntax
